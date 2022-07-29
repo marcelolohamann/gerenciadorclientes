@@ -18,7 +18,7 @@ include_once("./includes/header.php");
     <form action="./deletarConfirmar.php" method="post">
       <div class="campo-container">
         <label for="nome">Nome </label>
-        <input disabled type="text" value="a" id="nome" name="nome" value="<?php echo $dados['nome'];?>">
+        <input disabled type="text" id="nome" name="nome" value="<?php echo $dados['nome'];?>">
       </div>
 
       <div class="campo-container">
